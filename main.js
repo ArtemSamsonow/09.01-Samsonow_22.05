@@ -127,7 +127,7 @@ todoControl.addEventListener("submit", event => {
         value: input.value,
         completed: false
     }
-    
+    input.value = "";
     obj.push(newObj)
     render();
 });
